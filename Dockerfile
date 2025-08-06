@@ -1,6 +1,5 @@
 FROM python:3.12-slim
 
-RUN python -m pip install --upgrade pip
 WORKDIR /usr/src/app
 
 # set environment variables
