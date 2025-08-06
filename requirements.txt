@@ -2,7 +2,7 @@
 # bs4==0.0.2
 # certifi==2025.4.26
 # charset-normalizer==3.4.2
-# GeoAlchemy2==0.18.0
+GeoAlchemy2
 # idna==3.10
 # numpy==2.2.6
 # packaging==25.0
