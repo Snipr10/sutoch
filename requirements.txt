@@ -5,10 +5,10 @@ charset-normalizer==3.4.2
 GeoAlchemy2==0.18.0
 # idna==3.10
 # numpy==2.2.6
-packaging==25.0
-requests==2.32.4
-shapely==2.1.1
-soupsieve==2.7
-SQLAlchemy==2.0.42
-typing_extensions==4.14.0
-urllib3==2.4.0
+# packaging==25.0
+# requests==2.32.4
+# shapely==2.1.1
+# soupsieve==2.7
+# SQLAlchemy==2.0.42
+# typing_extensions==4.14.0
+# urllib3==2.4.0
