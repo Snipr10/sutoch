@@ -9,7 +9,7 @@ ENV PYTHONUNBUFFERED 1
 #RUN pip3 install torch==1.8.1
 
 COPY ./requirements.txt /usr/src/app/requirements.txt
-RUN pip3 install --upgrade pip3
+#RUN pip3 install --upgrade pip3
 RUN pip3 install -r requirements.txt
 
 # copy project
