@@ -11,7 +11,7 @@ ENV PYTHONUNBUFFERED 1
 COPY ./requirements.txt /usr/src/app/requirements.txt
 RUN     pip install --upgrade pip --progress-bar off
 
-RUN pip3 install -r requirements.txt
+RUN pip3 install -r requirements.txt --progress-bar off
 
 # copy project
 COPY . /usr/src/app/
