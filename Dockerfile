@@ -1,5 +1,6 @@
-FROM python:3.10-slim
-# set work directory
+FROM python:3.12-slim
+
+RUN python -m pip install --upgrade pip
 WORKDIR /usr/src/app
 
 # set environment variables
@@ -9,7 +10,6 @@ ENV PYTHONUNBUFFERED 1
 #RUN pip3 install torch==1.8.1
 
 COPY ./requirements.txt /usr/src/app/requirements.txt
-RUN python -m ensurepip --upgrade && python -m pip install --upgrade pip
 RUN pip3 install -r requirements.txt
 
 # copy project
